@@ -41,25 +41,26 @@ This is simple Spring boot REST API  which  stores information about the robot a
 
 *Robots*
                    
-  22. **List  All Robots: http://localhost:8080/robot/list
-  23. **List All flying robots: http://localhost:8080/robot/flying/list
+  22. *List  All Robots: http://localhost:8080/robot/list*
+  23. *List All flying robots: http://localhost:8080/robot/flying/list*
 
 
 
   *Survivors*
               
-    **Add Survivor: http://localhost:8080/survivor/save 
-    **List All Survivors: http://localhost:8080/survivor/list
-   **update survivors location: http://localhost:8080/survivor/location/update
-   **List Infected Survivors: http://localhost:8080/survivor/infected/list
-   **List Uninfected Survivors: http://localhost:8080/survivor/uninfected/list
-   **Survivors Infected Percentage: http://localhost:8080/survivor/infected/percentage
-   **Uninfected Survivors Percentage: http://localhost:8080/survivor/uninfected/percentage
-    **Flag Survivor As Infected: http://localhost:8080/survivor/flag/infected/{id}
-   **Find survivor by id: http://localhost:8080/survivor/find/by/{id}
-   **Delete survivor by id: http://localhost:8080/survivor/delete/{id}
+     *Add Survivor: http://localhost:8080/survivor/save*
+     *List All Survivors: http://localhost:8080/survivor/list*
+      *update survivors location: http://localhost:8080/survivor/location/update*
+     *List Infected Survivors: http://localhost:8080/survivor/infected/list*
+     *List Uninfected Survivors: http://localhost:8080/survivor/uninfected/list*
+     *Survivors Infected Percentage: http://localhost:8080/survivor/infected/percentage*
+     *Uninfected Survivors Percentage: http://localhost:8080/survivor/uninfected/percentage*
+     *Flag Survivor As Infected: http://localhost:8080/survivor/flag/infected/{id}*
+    *Find survivor by id: http://localhost:8080/survivor/find/by/{id}*
+    *Delete survivor by id: http://localhost:8080/survivor/delete/{id}*
    
                      
-   *List Land Robots: http://localhost:8080/robot/land/list
- 
+   *List Land Robots: http://localhost:8080/robot/land/list*
+ *list of robots*
+*https://robotstakeover20210903110417.azurewebsites.net/robotcpu*
       

@@ -15,11 +15,6 @@ public class RobotController {
     @Autowired
     RobotService robotService;
 
-    @GetMapping("/list")
-    public List<Robot> getAllRobots(){
-        return robotService.listAllRobots();
-    }
-
     @GetMapping("/land/list")
     public List<Robot> getAllLandRobots(){
         return robotService.listAllLandRobots();
@@ -28,4 +23,9 @@ public class RobotController {
     public List<Robot> getAllAirRobots(){
         return robotService.listAllFlyingRobots();
     }
+    @GetMapping("/list")
+    public List<Robot> getAllRobots(){
+        return robotService.listAllRobots();
+    }
+
 }
