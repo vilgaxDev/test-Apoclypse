@@ -1,18 +1,19 @@
 # robots_apocalypse
-This is simple Spring boot REST API  which  stores information about the robot apocalypse survivors as well as the resources they own. It also consumes robot API and is able to keep track of all existing robots.
-## Steps to Setup the Spring Boot Back end app (robots_apocalypse)
+The year is 2050 and the world as we know it has been taken over by robots. Created as once friendly robots, have now turned against humankind, especially software engineers like yourself. Their mission is to transform everyone into mindless zombies for their entertainment. You as a resistance member (and the last survivor who knows how to code), was designated to develop a system to meet the following requirements
 
-1. **Clone the application**
+You will develop a REST API (yes, we care about architecture design even in the midst of a robot apocalypse!) which will store information about the survivors, as well as the resources they own.
+
+
 
 	
 
-2. **Create MySQL database**
+ **Create MySQL database**
 
 
 	create database robot_apocalypse_db
 
 
-3. **Change MySQL username and password as per your MySQL installation**
+ **Change MySQL username and password as per your MySQL installation**
 
 	+ open `src/main/resources/application.properties` file.
 
@@ -20,7 +21,7 @@ This is simple Spring boot REST API  which  stores information about the robot a
 	
   
 
-4. **Run the app**
+ **Run the app**
 
 	You can run the spring boot app by typing the following command -
 
@@ -36,13 +37,13 @@ This is simple Spring boot REST API  which  stores information about the robot a
 	mvn package
 	java -jar target/apocalypse 0.0.1-SNAPSHOT
   
-  4. **Testing the Endpoints**
-  5. Use any API endpoint tester for my case I used Postman. The list of available endpoints are:
+   **Testing the Endpoints**
+  . Use any API endpoint tester for my case I used Postman. The list of available endpoints are:
 
 *Robots*
                    
-  22. *List  All Robots: http://localhost:8080/robot/list*
-  23. *List All flying robots: http://localhost:8080/robot/flying/list*
+   *List  All Robots: http://localhost:8080/robot/list*
+   *List All flying robots: http://localhost:8080/robot/flying/list*
 
 
 
